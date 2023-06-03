@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="撤销" android:id="@+id/action_undo"/>
+    <item android:title="恢复撤销" android:id="@+id/action_redo"/>
+    
+    <item android:title="加粗" android:id="@+id/action_italic"/>
+    <item android:title="下角标" android:id="@+id/action_subscript"/>
+    <item android:title="上角标" android:id="@+id/action_superscript"/>
+    <item android:title="删除线" android:id="@+id/action_strikethrough"/>
+    <item android:title="下划线" android:id="@+id/action_underline"/>
+    <item android:title="设置标题" >
+        <menu>
+            <group>
+                <item android:title="标题1" android:id="@+id/action_heading1"/>
+                <item android:title="标题2" android:id="@+id/action_heading2"/>
+                <item android:title="标题3" android:id="@+id/action_heading3"/>
+                <item android:title="标题4" android:id="@+id/action_heading4"/>
+                <item android:title="标题5" android:id="@+id/action_heading5"/>
+                <item android:title="标题6" android:id="@+id/action_heading6"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="设置字体颜色"  >
+        <menu>
+            <group>
+                <item android:title="红" android:id="@+id/action_txt_color_red"/>
+                <item android:title="黄" android:id="@+id/action_txt_color_yellow"/>
+                <item android:title="蓝" android:id="@+id/action_txt_color_blue"/>
+                <item android:title="绿" android:id="@+id/action_txt_color_green"/>
+                <item android:title="黑" android:id="@+id/action_txt_color_black"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="设置字体背景颜色" android:id="@+id/txt_bg">
+        <menu>
+            <group>
+                <item android:title="红" android:id="@+id/action_txt_bg_red"/>
+                <item android:title="黄" android:id="@+id/action_txt_bg_yellow"/>
+                <item android:title="蓝" android:id="@+id/action_txt_bg_blue"/>
+                <item android:title="绿" android:id="@+id/action_txt_bg_green"/>
+                <item android:title="黑" android:id="@+id/action_txt_bg_black"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="向左缩进" android:id="@+id/action_indent"/>
+    <item android:title="向右缩进" android:id="@+id/action_outdent"/>
+    <item android:title="对齐模式" >
+        <menu>
+            <group>
+                <item android:title="左对齐" android:id="@+id/action_align_left"/>
+                <item android:title="右对齐" android:id="@+id/action_align_right"/>
+                <item android:title="居中对齐" android:id="@+id/action_align_center"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="排版模式" >
+        <menu>
+            <group>
+                <item android:title="无序排列" android:id="@+id/action_insert_bullets"/>
+                <item android:title="有序排列" android:id="@+id/action_insert_numbers"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="插入" >
+        <menu>
+            <group>
+                <item android:title="引用" android:id="@+id/action_blockquote"/>
+                <item android:title="插入图片" android:id="@+id/action_insert_image"/>
+                <item android:title="插入链接" android:id="@+id/action_insert_link"/>
+                <item android:title="选择框" android:id="@+id/action_insert_checkbox"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
